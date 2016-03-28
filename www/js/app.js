@@ -5,7 +5,9 @@ function addTodoPicture() {
         quality : 50,
         destinationType : Camera.DestinationType.FILE_URI,
         targetWidth : 100,
-        targetHeight : 100
+        targetHeight : 100,
+        saveToPhotoAlbum : true,
+        correctOrientation : true
     });
 }
 function addTodo(camera_url) {
